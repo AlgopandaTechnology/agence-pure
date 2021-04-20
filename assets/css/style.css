@@ -1,0 +1,600 @@
+/*--------------------------------------------------------------
+Start Header Coding    
+--------------------------------------------------------------*/
+.header-wrapper {
+    background: transparent;
+
+}
+
+.top-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top-logo {
+    width: 10%;
+    text-align: left;
+}
+
+.top-logo h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hamburger,
+.close-menu {
+    width: 20%;
+    padding-left: 18%;
+    font-size: 35px;
+    color: #63E89E;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.close-menu {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+}
+
+.hamburger span,
+.close-menu span {
+    width: 40px;
+    height: 2px;
+    margin-bottom: 5px;
+    background: #000000;
+    border-radius: 3px;
+    float: right;
+}
+
+.hamburger span:nth-child(2) {
+    width: 30px;
+}
+
+.hamburger span:nth-child(3) {
+    width: 20px;
+}
+
+.main-menu {
+    width: 10%;
+    display: none;
+    margin: 0px auto;
+    margin-top: -80px;
+    z-index: 1;
+}
+
+
+.main-menu .nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 32px;
+    transition: 0.3s ease;
+    z-index: 1;
+}
+
+.active {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+.main-menu .nav a:hover {
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    transition: 0.3s ease;
+}
+
+/*--------------------------------------------------------------
+End Header Coding    
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+Start Footer Coding    
+--------------------------------------------------------------*/
+.footer-wrapper {}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    width: 100%;
+}
+
+.footer-box {
+    width: 25%;
+    font-weight: normal;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.footer-box:nth-child(1) {
+    padding-left: 0px;
+}
+
+.footer-box:nth-child(3) li {
+    margin-top: 60%;
+}
+
+.footer-box li {
+    display: block;
+}
+
+.footer-box li a {
+    color: #000000;
+}
+
+.footer-box li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.scrollToTop {
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #00ACEE;
+    position: fixed;
+    bottom: 75px;
+    right: 40px;
+    display: none;
+    border-radius: 50%;
+    border: 3px solid #00ACEE;
+}
+
+.scrollToTop:hover {
+    border: 3px solid #63E89E;
+}
+
+/*--------------------------------------------------------------
+End Footer Coding    
+--------------------------------------------------------------*/
+
+
+
+.contact-side {
+    background: #9C974F;
+    position: fixed;
+    top: 40%;
+    padding: 18px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    box-sizing: border-box;
+    color: #000000;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+/*#############################
+Contact page
+##############################*/
+
+/*--------------------------------------------------------------
+Start contact-form-wrapper Coding    
+--------------------------------------------------------------*/
+.contact-form-wrapper {
+    background: #F6F4F1;
+}
+
+.contact-form-wrapper .container {
+    padding: 150px 0px 150px 0px;
+}
+
+.contact-form-main h1 {
+    font-size: calc(40px + 78 * ((100vw - 480px) / 1440));
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    /*text-align: center;*/
+    top: 50%;
+    position: relative;
+}
+
+.contact-form-main .field {
+    display: flex;
+    flex-flow: column-reverse;
+    margin-bottom: 1em;
+}
+
+.contact-form-main label,
+input,
+textarea {
+    transition: all 0.2s;
+    /*touch-action: manipulation;*/
+    background: transparent;
+}
+
+.contact-form-main input,
+.contact-form-main textarea {
+    font-size: 1.5em;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 0;
+    cursor: text;
+    padding-bottom: 15px;
+}
+
+.contact-form-main textarea {
+    height: 200px;
+}
+
+.contact-form-main input:focus,
+.contact-form-main textarea:focus {
+    outline: 0;
+    border-bottom: 1px solid #666;
+}
+
+.contact-form-main label {
+    letter-spacing: 0.05em;
+}
+
+.contact-form-main input:placeholder-shown+label,
+.contact-form-main textarea:placeholder-shown+label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 2.125rem) scale(1.5);
+}
+
+::-webkit-input-placeholder {
+    opacity: 0;
+    /*transition: inherit;*/
+}
+
+.contact-form-main input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.contact-form-main input:not(:placeholder-shown)+label,
+.contact-form-main input:focus+label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+}
+
+.form-left-part,
+.form-right-part {
+    width: 50%;
+}
+
+.form-right-part {
+    padding-left: 5%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------------------------------
+End contact-form-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+Start contact-page-image-wrappe Coding    
+--------------------------------------------------------------*/
+
+.contact-page-image-wrapper {
+    background-image: url('../images/s.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*--------------------------------------------------------------
+End contact-page-image-wrappe Coding    
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+Start contact-page-contact-section-wrapper Coding    
+--------------------------------------------------------------*/
+.contact-page-contact-section-wrapper {
+    background: #000000;
+    color: #ffffff;
+}
+
+.contact-page-contact-section-wrapper .container {
+    padding-top: 70px;
+}
+
+.contact-section-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-section-main h2 {
+    font-weight: 500;
+    width: 95%;
+    border-top: 1px solid hsla(0, 0%, 100%, .5);
+    padding-top: 15px;
+    font-size: 35px;
+}
+
+.contact-section-main .col {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.contact-section-main .last-col {
+    margin-bottom: 100px;
+}
+
+.contact-section-main a {
+    padding-top: 17px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    width: 45%;
+    border-top: 1px solid hsla(0, 0%, 100%, .5);
+}
+
+.contact-section-main a:hover {
+    text-decoration: underline;
+}
+
+.contact-section-main a:nth-child(2) {
+    margin-left: 5%;
+}
+
+.contact-section-main .last-col {
+    padding-top: 17px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    width: 48%;
+    border-top: 1px solid hsla(0, 0%, 100%, .5);
+}
+
+.contact-section-main .last-col a {
+    border: none;
+    display: block;
+}
+
+.contact-section-main .last-col a:nth-child(2) {
+    margin-left: 0%;
+}
+
+
+/*--------------------------------------------------------------
+End contact-page-contact-section-wrapper Coding    
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Start contact-last-wrapperr Coding    
+--------------------------------------------------------------*/
+.contact-last-wrapper {}
+
+.last-wrapper-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.last-wrapper-main .col {
+    width: 85%;
+    margin: 0px auto;
+    padding: 100px 0px 120px 120px;
+}
+
+.last-wrapper-main .col:first-child {
+    font-size: 25px;
+    text-align: right;
+    position: relative;
+    right: 130px;
+    padding-top: 110px;
+}
+
+.last-wrapper-main .col:last-child {
+    background: #9C974F;
+    padding: 100px 0px 70px 140px;
+}
+
+.last-wrapper-main a {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 60px;
+}
+
+
+
+/*--------------------------------------------------------------
+End contact-last-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*#############################
+l-agence page
+##############################*/
+
+
+/*--------------------------------------------------------------
+Start l-agence-main-wrapper Coding    
+--------------------------------------------------------------*/
+.l-agence-main-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F6F4F1;
+}
+
+
+.l-agence-main-wrapper h1 {
+    text-align: center;
+    font-size: 88px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+}
+
+/*--------------------------------------------------------------
+End l-agence-main-wrapper Coding    
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Start l-agence-first-wrapper Coding    
+--------------------------------------------------------------*/
+
+.l-agence-first-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    background: #191919;
+    color: #ffffff;
+}
+
+.l-agence-first-wrapper .container {
+    padding-top: 100px;
+}
+
+.l-agence-first-wrapper .col {
+    padding-right: 100px;
+}
+
+.l-agence-first-wrapper h1,
+.l-agence-slider-wrapper h1 {
+    font-size: calc(26px + 19 * ((100vw - 480px) / 1440));
+    font-weight: 800;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+.l-agence-first-wrapper h2,
+.l-agence-slider-wrapper h2 {
+    font-size: calc(24px + 16 * ((100vw - 480px) / 1440));
+    font-weight: 300;
+    letter-spacing: .15em;
+}
+
+.l-agence-first-wrapper p {
+    font-size: calc(16px + 2 * ((100vw - 480px) / 1440));
+}
+
+/*--------------------------------------------------------------
+End l-agence-first-wrapper Coding    
+--------------------------------------------------------------*/
+
+.l-agence-slider-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    color: #ffffff;
+}
+
+.main-slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-slider .slider-box {
+    display: flex;
+    justify-content: center;
+}
+
+.main-slider .slider-box .col1 {
+    width: 70%;
+}
+
+.main-slider .slider-box .col2 {
+    width: 30%;
+    padding-left: 10%;
+}
+
+
+.slider-content-first,
+.slider-content-second {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-content-first {
+    background-image: url('../images/s.jpg');
+}
+
+.slider-content-second {
+    background-image: url('../images/1.jpg');
+}
+
+.l-agence-slider-wrapper h3 {
+    font-size: calc(18px + 57 * ((100vw - 480px) / 1440));
+    font-weight: 800;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.l-agence-slider-wrapper h4 {
+    font-size: calc(14px + 14 * ((100vw - 480px) / 1440));
+    font-weight: 400;
+    position: absolute;
+    bottom: 114px;
+    z-index: 1;
+}
+
+.l-agence-slider-wrapper span {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    letter-spacing: .107em;
+    text-transform: uppercase;
+    font-size: calc(12px + 17 * ((100vw - 480px) / 1440));
+    font-weight: 700;
+    display: block;
+    padding: 15px 4px;
+    border-bottom: 2px solid #fff;
+
+}
+
+
+.main-slider {
+    position: relative;
+}
+
+.prevArrow {
+    left: 16%;
+}
+
+
+.prevArrow,
+.nextArrow {
+    position: absolute;
+    bottom: 90px;
+    color: #ffffff;
+    width: 65px;
+    height: 45px;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+    border: 2px solid #fff;
+}
+
+.nextArrow {
+    left: 23%;
+}
