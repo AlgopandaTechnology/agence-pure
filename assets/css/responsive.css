@@ -1,19 +1,13 @@
 @media screen and (max-width: 600px) {
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start Header Coding    
 --------------------------------------------------------------*/
-.main-menu {
-    width: 40%;
-    margin: 0px auto;
-    margin-top: -45px;
-}
 
-.hamburger span,
-.close-menu span {
+    .hamburger span,
+    .close-menu span {}
 
-}
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 End Header Coding    
 --------------------------------------------------------------*/
 
@@ -27,6 +21,24 @@ Start Footer Coding
         padding: 0px;
     }
 
+    .footer-box:nth-child(1) {
+        width: 50%;
+    }
+
+    .footer-box:nth-child(2) {
+        width: 50%;
+    }
+
+    .footer-box:nth-child(3) li {
+        margin-top: 10%;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 28px 0px 28px 0px;
+    }
+
+    .footer-box:nth-child(4) ul {
+        margin-top: 10%;
+    }
 
     .scrollToTop {
         right: 20px;
@@ -35,73 +47,258 @@ Start Footer Coding
     /*--------------------------------------------------------------
 End Footer Coding    
 --------------------------------------------------------------*/
-.contact-side {
-	display: none;
-}
+    .contact-side {
+        display: none;
+    }
 
-/*#############################
+    /*#############################
 Contact page
 ##############################*/
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start contact-form-wrapper Coding    
 --------------------------------------------------------------*/
-.contact-form-main h1 {
-    top: 0;
+    .contact-form-main h1 {
+        top: 0;
         text-align: center;
-}
+    }
 
-.form-left-part,.form-right-part{
-    width: 100%;
-}
+    .form-left-part,
+    .form-right-part {
+        width: 100%;
+    }
 
-.form-right-part{
-    padding-left: 0%;
-}
-/*--------------------------------------------------------------
+    .form-right-part {
+        padding-left: 0%;
+    }
+
+    /*--------------------------------------------------------------
 End contact-form-wrapper Coding    
 --------------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start contact-page-contact-section-wrapper Coding    
 --------------------------------------------------------------*/
-.contact-section-main h2 {
-    width:100%;
-}
+    .contact-section-main h2 {
+        width: 100%;
+    }
 
-.contact-section-main .col {
-    margin-bottom: 50px;
-}
+    .contact-section-main .col {
+        margin-bottom: 50px;
+    }
 
-.contact-section-main .last-col {
-    margin-bottom: 100px;
-}
+    .contact-section-main .last-col {
+        margin-bottom: 100px;
+    }
 
-.contact-section-main a {
-    padding-top: 0px;
-    width:100%;
-    border: none;
-    margin-bottom: 10px;
-}
+    .contact-section-main a {
+        padding-top: 0px;
+        width: 100%;
+        border: none;
+        margin-bottom: 10px;
+    }
 
-.contact-section-main a:hover {
-    text-decoration: underline;
-}
+    .contact-section-main a:hover {
+        text-decoration: underline;
+    }
 
-.contact-section-main a:nth-child(2) {
-    margin-left: 0%;
-}
+    .contact-section-main a:nth-child(2) {
+        margin-left: 0%;
+    }
 
-.contact-section-main .last-col {
-    padding-top:0px;
-    width: 100%;
-    border-top:none;
-}
+    .contact-section-main .last-col {
+        padding-top: 0px;
+        width: 100%;
+        border-top: none;
+    }
+
+
+    /*--------------------------------------------------------------
+End contact-page-contact-section-wrapper Coding    
+--------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+Start contact-last-wrapperr Coding    
+--------------------------------------------------------------*/
+
+    .last-wrapper-main .col {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .last-wrapper-main .col:first-child {
+        font-size: 20px;
+        text-align: center;
+        position: none;
+        right: 0px;
+        padding-top: 50px;
+        background: #9C974F;
+    }
+
+    .last-wrapper-main .col:last-child {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .last-wrapper-main a {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /*--------------------------------------------------------------
+End contact-last-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*#############################
+l-agence page
+##############################*/
 
 
 /*--------------------------------------------------------------
-End contact-page-contact-section-wrapper Coding    
+Start l-agence-main-wrapper Coding    
+--------------------------------------------------------------*/
+.l-agence-main-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F6F4F1;
+}
+
+
+.l-agence-main-wrapper h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/*--------------------------------------------------------------
+End l-agence-main-wrapper Coding    
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Start l-agence-first-wrapper Coding    
+--------------------------------------------------------------*/
+
+.l-agence-first-wrapper .col {
+    padding-right: 0px;
+}
+
+.l-agence-first-wrapper h1,
+.l-agence-slider-wrapper h1 {
+text-align: center;
+}
+
+.l-agence-first-wrapper h2,
+.l-agence-slider-wrapper h2 {
+text-align: center;
+margin-bottom: 25px;
+}
+
+.l-agence-first-wrapper img {
+    margin-top: 25px;
+}
+
+/*--------------------------------------------------------------
+End l-agence-first-wrapper Coding    
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Start l-agence-slider-wrapper Coding    
+--------------------------------------------------------------*/
+
+.main-slider .slider-box .col1 {
+    width: 100%;
+    text-align: center;
+}
+
+.main-slider .slider-box .col2 {
+    width: 30%;
+    padding-left: 0%;
+}
+
+
+.l-agence-slider-wrapper h3 {
+    text-align: left;
+    margin-top: 0px;
+}
+
+.l-agence-slider-wrapper h4 {
+    bottom: 50px;
+}
+
+.l-agence-slider-wrapper h2 {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.prevArrow {
+    left: 30%;
+}
+
+.prevArrow,
+.nextArrow {
+    bottom: 35px;
+    width: 35px;
+    height: 15px;
+    line-height: 15px;
+}
+
+.nextArrow {
+    left: 47%;
+}
+
+/*--------------------------------------------------------------
+End l-agence-slider-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*#############################
+le-feed page
+##############################*/
+
+    /*--------------------------------------------------------------
+Start le-feed-details-wrapper Coding    
+--------------------------------------------------------------*/
+    .le-feed-main-wrapper {
+        width: 100%;
+        min-height: 100vh;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        background: #F6F4F1;
+    }
+
+    .le-feed-main-wrapper h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .le-feed-details-wrapper .content {
+        margin-bottom: 25px;
+    }
+
+    .le-feed-details-wrapper .content .col2 {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .le-feed-details-wrapper .content .row:nth-child(1) {
+        margin-bottom: 40px;
+    }
+
+    .le-feed-details-wrapper .content .cols:last-child {
+        text-align: right;
+    }
+
+
+    /*--------------------------------------------------------------
+End le-feed-details-wrapper Coding    
 --------------------------------------------------------------*/
 
 }

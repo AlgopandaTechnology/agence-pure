@@ -3,6 +3,12 @@ Start Header Coding
 --------------------------------------------------------------*/
 .header-wrapper {
     background: transparent;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 
 }
 
@@ -12,15 +18,13 @@ Start Header Coding
     justify-content: space-between;
 }
 
-.top-logo {
-    width: 10%;
-    text-align: left;
-}
+.top-logo {}
 
 .top-logo h2 {
     color: #000000;
     font-weight: bold;
     font-size: 40px;
+    z-index: 1;
 }
 
 .hamburger,
@@ -29,7 +33,6 @@ Start Header Coding
     padding-left: 18%;
     font-size: 35px;
     color: #63E89E;
-    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -49,6 +52,7 @@ Start Header Coding
     background: #000000;
     border-radius: 3px;
     float: right;
+    z-index: 1;
 }
 
 .hamburger span:nth-child(2) {
@@ -60,11 +64,9 @@ Start Header Coding
 }
 
 .main-menu {
-    width: 10%;
     display: none;
-    margin: 0px auto;
-    margin-top: -80px;
-    z-index: 1;
+    z-index: 99999;
+    text-align: center;
 }
 
 
@@ -72,6 +74,7 @@ Start Header Coding
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 16px;
     font-size: 32px;
     transition: 0.3s ease;
@@ -100,7 +103,9 @@ End Header Coding
 /*--------------------------------------------------------------
 Start Footer Coding    
 --------------------------------------------------------------*/
-.footer-wrapper {}
+.footer-wrapper {
+    background: #F6F4F1;
+}
 
 .footer {
     display: flex;
@@ -123,6 +128,10 @@ Start Footer Coding
 .footer-box:nth-child(3) li {
     margin-top: 60%;
 }
+.footer-box:nth-child(4) ul{
+    margin-top: 40%;
+}
+
 
 .footer-box li {
     display: block;
@@ -143,23 +152,16 @@ Start Footer Coding
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    color: #00ACEE;
+    color: #9C974F;
     position: fixed;
     bottom: 75px;
     right: 40px;
     display: none;
-    border-radius: 50%;
-    border: 3px solid #00ACEE;
-}
-
-.scrollToTop:hover {
-    border: 3px solid #63E89E;
 }
 
 /*--------------------------------------------------------------
 End Footer Coding    
 --------------------------------------------------------------*/
-
 
 
 .contact-side {
@@ -173,6 +175,7 @@ End Footer Coding
     color: #000000;
     letter-spacing: 5px;
     font-weight: bold;
+    z-index: 1;
 }
 
 /*#############################
@@ -380,7 +383,9 @@ End contact-page-contact-section-wrapper Coding
 /*--------------------------------------------------------------
 Start contact-last-wrapperr Coding    
 --------------------------------------------------------------*/
-.contact-last-wrapper {}
+.contact-last-wrapper {
+    background: #F6F4F1;
+}
 
 .last-wrapper-main {
     display: flex;
@@ -495,6 +500,10 @@ Start l-agence-first-wrapper Coding
 End l-agence-first-wrapper Coding    
 --------------------------------------------------------------*/
 
+/*--------------------------------------------------------------
+Start l-agence-slider-wrapper Coding    
+--------------------------------------------------------------*/
+
 .l-agence-slider-wrapper {
     width: 100%;
     min-height: 100vh;
@@ -598,3 +607,129 @@ End l-agence-first-wrapper Coding
 .nextArrow {
     left: 23%;
 }
+
+/*--------------------------------------------------------------
+End l-agence-slider-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*#############################
+le-feed page
+##############################*/
+
+/*--------------------------------------------------------------
+Start le-feed-main-wrapper Coding    
+--------------------------------------------------------------*/
+.le-feed-main-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F6F4F1;
+}
+
+
+.le-feed-main-wrapper h1 {
+    text-align: center;
+    font-size: 88px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 20px;
+    color: #9C974F;
+    width: 65px;
+    height: 58px;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+    border: 2px solid #9C974F;
+    left: calc(50% - 30px);
+}
+
+/*--------------------------------------------------------------
+End l-agence-main-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+Srart le-feed-details-wrapper Coding    
+--------------------------------------------------------------*/
+
+.le-feed-details-wrapper {
+    background: #000000;
+    color: #d9d9d9;
+}
+
+.le-feed-details-wrapper .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.le-feed-details-wrapper .le-feed-details-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.le-feed-details-wrapper .content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 65px;
+    border-bottom: 1px solid #ffffff;
+    font-family: "Manrope", sans-serif;
+}
+
+.le-feed-details-wrapper .content .row:nth-child(1){
+    margin-bottom: 80px;
+}
+.le-feed-details-wrapper .content .col2{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.le-feed-details-wrapper .content .cols{
+    width: 50%;
+
+}
+
+.le-feed-details-wrapper h1 {
+    font-size: calc(20px + 25 * ((100vw - 480px) / 1440));
+    font-weight: 800;
+    color: #9C974F;
+    margin-bottom: 20px;
+}
+
+.le-feed-details-wrapper h3 {
+    font-size: calc(24px + 31 * ((100vw - 480px) / 1440));
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.le-feed-details-wrapper h5 {
+    font-size: calc(16px + 2 * ((100vw - 480px) / 1440));
+    font-weight: 100;
+}
+
+.le-feed-details-wrapper p {
+    font-size: calc(16px + 2 * ((100vw - 480px) / 1440));
+    color: grey;
+
+}
+
+.le-feed-details-wrapper a {
+    color: grey;
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+End le-feed-details-wrapper Coding    
+--------------------------------------------------------------*/
