@@ -1,14 +1,16 @@
 /*--------------------------------------------------------------
 Start Header Coding    
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Start Header Coding    
+--------------------------------------------------------------*/
 .header-wrapper {
     background: transparent;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    width:100%;
     position: fixed;
-    top: 0;
-    left: 0;
+    top:0;
+    left:0;
+    z-index:1000;
 
 }
 
@@ -16,15 +18,19 @@ Start Header Coding
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
-.top-logo {}
+.top-logo {
+    width: 10%;
+    text-align: left;
+   
+}
 
 .top-logo h2 {
     color: #000000;
     font-weight: bold;
     font-size: 40px;
-    z-index: 1;
 }
 
 .hamburger,
@@ -33,7 +39,9 @@ Start Header Coding
     padding-left: 18%;
     font-size: 35px;
     color: #63E89E;
+    margin-top: 10px;
     cursor: pointer;
+    
 }
 
 .close-menu {
@@ -52,7 +60,6 @@ Start Header Coding
     background: #000000;
     border-radius: 3px;
     float: right;
-    z-index: 1;
 }
 
 .hamburger span:nth-child(2) {
@@ -64,9 +71,10 @@ Start Header Coding
 }
 
 .main-menu {
+    width: 10%;
     display: none;
-    z-index: 99999;
-    text-align: center;
+    margin: 0px auto;
+    z-index: 1;
 }
 
 
@@ -74,11 +82,11 @@ Start Header Coding
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 16px;
     font-size: 32px;
     transition: 0.3s ease;
     z-index: 1;
+    
 }
 
 .active {
@@ -97,7 +105,6 @@ Start Header Coding
 /*--------------------------------------------------------------
 End Header Coding    
 --------------------------------------------------------------*/
-
 
 
 /*--------------------------------------------------------------
