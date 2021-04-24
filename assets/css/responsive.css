@@ -5,9 +5,33 @@ Start Header Coding
 --------------------------------------------------------------*/
 
     .hamburger span,
-    .close-menu span {}
+    .close-menu span {
 
-    /*--------------------------------------------------------------
+    }
+
+    .main-menu {
+        width:65%;
+        margin-top: 0px;
+        background: #000;
+        border-radius: 25px;
+               display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-menu .nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        font-size: 32px;
+        transition: 0.3s ease;
+        z-index: 1;
+        color: #fff;
+    }
+
+
+ /*--------------------------------------------------------------
 End Header Coding    
 --------------------------------------------------------------*/
 
@@ -50,6 +74,180 @@ End Footer Coding
     .contact-side {
         display: none;
     }
+
+    /*#############################
+Homepage page
+##############################*/
+
+    /*--------------------------------------------------------------
+Start home-project-wrapper Coding    
+--------------------------------------------------------------*/
+
+    .home-project-wrapper .col-left {
+        width: 100%;
+    }
+
+    .home-project-wrapper .project-1 {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .home-project-wrapper .project-1 .image-conatiner {
+        width: 100%;
+    }
+
+    .home-project-wrapper .project-1 .number {
+        bottom: 260px;
+        right: 30px;
+    }
+
+    .home-project-wrapper .project-1 .description {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .home-project-wrapper .col-right {
+        width: 100%;
+        padding-top: 25px;
+        position: relative;
+    }
+
+    .home-project-wrapper .number {
+        bottom: 240px;
+        right: 30px;
+    }
+
+    .home-project-wrapper .mid-col {
+        width: 100%;
+        margin: 25px auto;
+        position: relative;
+    }
+
+    .home-project-wrapper .mid-col .description {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .home-project-wrapper .project-4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home-project-wrapper .project-4 .col-left {
+        width: 100%;
+        padding-top: 25px;
+        position: relative;
+    }
+
+    .home-project-wrapper .project-4 .col-left .number {
+        bottom: 300px;
+    }
+
+    .home-project-wrapper .project-4 .col-right .number {
+        bottom: 280px;
+    }
+
+    .home-project-wrapper .project-4 .col-right {
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 0;
+        margin-top: 25px;
+    }
+
+    .home-project-wrapper .project-4 .description {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /*--------------------------------------------------------------
+End home-project-wrapper Coding    
+--------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+Start home-menu-select-wrapper Coding    
+--------------------------------------------------------------*/
+    .home-menu-select-wrapper {
+        background: #9C974F;
+    }
+
+    .home-menu-select-wrapper .container {
+        padding: 100px 0px;
+    }
+
+    .home-menu-select-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .home-menu-select-main .right-cont {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .home-menu-select-main a {
+        margin: 0px;
+        padding-top: 25px;
+    }
+
+    /*--------------------------------------------------------------
+End home-menu-select-wrapper Coding    
+--------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+Start home-last-wrapper Coding    
+--------------------------------------------------------------*/
+
+    .home-last-wrapper {
+        background: #9C974F;
+    }
+
+    .home-last-wrapper .container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .home-last-wrapper .left-col {
+        width: 100%;
+        background: linear-gradient(90deg, #000 84%, transparent 0);
+        margin: 0;
+
+    }
+
+    .home-last-wrapper .left-col .background-text {
+        padding: 70px 20px 280px;
+        text-align: center;
+        background: url(../images/bg3.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 100%;
+        background-size: auto 60%;
+    }
+
+    .home-last-wrapper .left-col .text-container {
+        font-size: calc(70px + 70 * ((100vw - 480px) / 1440));
+        position: relative;
+        display: inline-flex;
+        align-items: flex-end;
+        justify-content: center;
+        min-height: 1em;
+        margin-left: -60px;
+    }
+
+
+    .home-last-wrapper .right-col {}
+
+    /*--------------------------------------------------------------
+End home-last-wrapper Coding    
+--------------------------------------------------------------*/
 
     /*#############################
 Contact page
@@ -152,113 +350,113 @@ Start contact-last-wrapperr Coding
 End contact-last-wrapper Coding    
 --------------------------------------------------------------*/
 
-/*#############################
+    /*#############################
 l-agence page
 ##############################*/
 
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start l-agence-main-wrapper Coding    
 --------------------------------------------------------------*/
-.l-agence-main-wrapper {
-    width: 100%;
-    min-height: 100vh;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    background: #F6F4F1;
-}
+    .l-agence-main-wrapper {
+        width: 100%;
+        min-height: 100vh;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        background: #F6F4F1;
+    }
 
 
-.l-agence-main-wrapper h1 {
-    font-size: 40px;
-    font-weight: 400;
-}
+    .l-agence-main-wrapper h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 End l-agence-main-wrapper Coding    
 --------------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start l-agence-first-wrapper Coding    
 --------------------------------------------------------------*/
 
-.l-agence-first-wrapper .col {
-    padding-right: 0px;
-}
+    .l-agence-first-wrapper .col {
+        padding-right: 0px;
+    }
 
-.l-agence-first-wrapper h1,
-.l-agence-slider-wrapper h1 {
-text-align: center;
-}
+    .l-agence-first-wrapper h1,
+    .l-agence-slider-wrapper h1 {
+        text-align: center;
+    }
 
-.l-agence-first-wrapper h2,
-.l-agence-slider-wrapper h2 {
-text-align: center;
-margin-bottom: 25px;
-}
+    .l-agence-first-wrapper h2,
+    .l-agence-slider-wrapper h2 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
 
-.l-agence-first-wrapper img {
-    margin-top: 25px;
-}
+    .l-agence-first-wrapper img {
+        margin-top: 25px;
+    }
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 End l-agence-first-wrapper Coding    
 --------------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start l-agence-slider-wrapper Coding    
 --------------------------------------------------------------*/
 
-.main-slider .slider-box .col1 {
-    width: 100%;
-    text-align: center;
-}
+    .main-slider .slider-box .col1 {
+        width: 100%;
+        text-align: center;
+    }
 
-.main-slider .slider-box .col2 {
-    width: 30%;
-    padding-left: 0%;
-}
+    .main-slider .slider-box .col2 {
+        width: 30%;
+        padding-left: 0%;
+    }
 
 
-.l-agence-slider-wrapper h3 {
-    text-align: left;
-    margin-top: 0px;
-}
+    .l-agence-slider-wrapper h3 {
+        text-align: left;
+        margin-top: 0px;
+    }
 
-.l-agence-slider-wrapper h4 {
-    bottom: 50px;
-}
+    .l-agence-slider-wrapper h4 {
+        bottom: 50px;
+    }
 
-.l-agence-slider-wrapper h2 {
-    position: absolute;
-    bottom: 50px;
-    z-index: 1;
-}
+    .l-agence-slider-wrapper h2 {
+        position: absolute;
+        bottom: 50px;
+        z-index: 1;
+    }
 
-.prevArrow {
-    left: 30%;
-}
+    .prevArrow {
+        left: 30%;
+    }
 
-.prevArrow,
-.nextArrow {
-    bottom: 35px;
-    width: 35px;
-    height: 15px;
-    line-height: 15px;
-}
+    .prevArrow,
+    .nextArrow {
+        bottom: 35px;
+        width: 35px;
+        height: 15px;
+        line-height: 15px;
+    }
 
-.nextArrow {
-    left: 47%;
-}
+    .nextArrow {
+        left: 47%;
+    }
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 End l-agence-slider-wrapper Coding    
 --------------------------------------------------------------*/
 
-/*#############################
+    /*#############################
 le-feed page
 ##############################*/
 

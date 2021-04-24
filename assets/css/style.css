@@ -424,9 +424,6 @@ Start home-project-wrapper Coding
 
 }
 
-.home-project-wrapper .project-4 .col-left {
-    position: relative;
-}
 
 .home-project-wrapper .project-4 .col-left .number {
     bottom: 320px;
@@ -439,6 +436,7 @@ Start home-project-wrapper Coding
 }
 
 .home-project-wrapper .project-4 .col-left {
+        position: relative;
     width: 50%;
     padding-top: 150px;
 }
@@ -490,9 +488,7 @@ Start home-menu-select-wrapper Coding
     align-items: center;
 }
 
-.home-menu-select-main .right-cont{
-
-}
+.home-menu-select-main .right-cont {}
 
 .home-menu-select-main h2 {
     font-size: calc(16px + 12 * ((100vw - 480px) / 1440));
@@ -501,7 +497,7 @@ Start home-menu-select-wrapper Coding
 }
 
 .home-menu-select-main a {
-    margin:0 20px;
+    margin: 0 20px;
     color: #000;
     border-bottom: 2px solid #000;
     font-size: calc(20px + 18 * ((100vw - 480px) / 1440));
@@ -511,26 +507,99 @@ Start home-menu-select-wrapper Coding
 End home-menu-select-wrapper Coding    
 --------------------------------------------------------------*/
 
-.home-last-wrapper{
+/*--------------------------------------------------------------
+Start home-last-wrapper Coding    
+--------------------------------------------------------------*/
+
+.home-last-wrapper {
     background: #9C974F;
 }
 
-.home-last-wrapper .container{
+.home-last-wrapper .container {
     width: 100%;
-    padding:0px;
+    padding: 0px;
 }
 
-.home-last-wrapper .left-col{
-    width:100%;
-    background: #000;
-    padding: 50px;
+.home-last-wrapper .left-col {
+    width:90%;
+    background: linear-gradient(90deg, #000 84%, transparent 0);
     margin: 0;
 
 }
 
-.home-last-wrapper .right-col{
-    width: 20%;
+.home-last-wrapper .left-col .background-text {
+    padding: 70px 20px 280px;
+    text-align: center;
+    background: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: auto;
 }
+
+.home-last-wrapper .left-col .text-container {
+    font-size: calc(70px + 70 * ((100vw - 480px) / 1440));
+    position: relative;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 3em;
+}
+
+.home-last-wrapper .left-col .text-container span {
+    position: absolute;
+    height: .5em;
+    overflow: hidden;
+    font-size: calc(60px + 80 * ((100vw - 480px) / 1440));
+    white-space: nowrap;
+    user-select: none;
+    mix-blend-mode: exclusion;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    color: #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    line-height: 1em;
+    background: #000;
+}
+
+.home-last-wrapper .left-col .text-container .item-5 {
+    transform: translate(0px, -2.5em);
+    opacity: 0.1;
+    z-index: 15;
+}
+
+.home-last-wrapper .left-col .text-container .item-4 {
+    transform: translate(0px, -2em);
+    opacity: 0.3;
+    z-index: 20;
+}
+
+.home-last-wrapper .left-col .text-container .item-3 {
+    transform: translate(0px, -1.5em);
+    opacity: 40;
+    z-index: 25;
+}
+
+.home-last-wrapper .left-col .text-container .item-2 {
+    transform: translate(0px, -1em);
+    opacity: 1;
+    z-index: 30;
+}
+
+.home-last-wrapper .left-col .text-container .item-1 {
+    transform: translate(0px, 0%);
+    opacity: 1;
+    color: #fff;
+}
+
+.home-last-wrapper .right-col {
+    width: 5%;
+}
+
+/*--------------------------------------------------------------
+End home-last-wrapper Coding    
+--------------------------------------------------------------*/
 
 /*#############################
 Contact page
