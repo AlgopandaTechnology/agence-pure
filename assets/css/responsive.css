@@ -471,7 +471,7 @@ Start le-feed-details-wrapper Coding
         background: #F6F4F1;
     }
 
-    .le-feed-main-wrapper h1 {
+    .le-feed-main-wrapper h1,.references-main-wrapper h1{
         font-size: 40px;
         font-weight: 400;
     }

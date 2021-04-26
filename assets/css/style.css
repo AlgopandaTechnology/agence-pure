@@ -198,7 +198,7 @@ Start home-main-wrapper Coding
 }
 
 .home-main-wrapper .container {
-    margin-top: 80px;
+    margin-top: 95px;
     padding: 100px 0px 100px 0px;
     background: #191919;
 }
@@ -331,7 +331,11 @@ Start home-project-wrapper Coding
     padding-left: 50px;
 }
 
-.home-project-wrapper .description h2 {
+.references-section-wrapper .description{
+    margin-top: 50px;
+}
+
+.home-project-wrapper .description h2,.references-section-wrapper .description h2 {
     margin-bottom: 10px;
     font-size: calc(30px + 15 * ((100vw - 480px) / 1440));
     line-height: 1em;
@@ -339,7 +343,7 @@ Start home-project-wrapper Coding
     text-transform: uppercase;
 }
 
-.home-project-wrapper .description span {
+.home-project-wrapper .description span{
     font-size: calc(25px + 15 * ((100vw - 480px) / 1440));
     font-weight: 300;
     line-height: 1em;
@@ -349,22 +353,28 @@ Start home-project-wrapper Coding
 
 }
 
-.home-project-wrapper .description p {
+.home-project-wrapper .description p,.references-section-wrapper .description p{
     margin-bottom: 10px;
     font-size: calc(14px + 1 * ((100vw - 480px) / 1440));
     color: #727272;
     font-family: "Manrope", sans-serif;
+    line-height: 18px;
 }
 
-.click-right {
+.click-right,.click-top {
     margin-top: 25px;
 }
 
-.click-right a {
+.click-right a,.click-top a{
     border-bottom: 2px solid #000;
     font-size: calc(16px + 12 * ((100vw - 480px) / 1440));
     font-family: "Manrope", sans-serif;
     color: #000000;
+}
+
+.click-top a{
+    color: #fff;
+    border-bottom: 2px solid #fff;
 }
 
 .right-arrow {
@@ -436,7 +446,7 @@ Start home-project-wrapper Coding
 }
 
 .home-project-wrapper .project-4 .col-left {
-        position: relative;
+    position: relative;
     width: 50%;
     padding-top: 150px;
 }
@@ -521,7 +531,7 @@ Start home-last-wrapper Coding
 }
 
 .home-last-wrapper .left-col {
-    width:100%;
+    width: 100%;
     background: linear-gradient(90deg, #000 84%, transparent 0);
     margin: 0;
 
@@ -1156,4 +1166,97 @@ Srart le-feed-details-wrapper Coding
 
 /*--------------------------------------------------------------
 End le-feed-details-wrapper Coding    
+--------------------------------------------------------------*/
+
+
+/*#############################
+references page
+##############################*/
+
+/*--------------------------------------------------------------
+Start references-main-wrapper Coding    
+--------------------------------------------------------------*/
+.references-main-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F6F4F1;
+}
+
+
+.references-main-wrapper h1 {
+    text-align: center;
+    font-size: 88px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+}
+
+/*--------------------------------------------------------------
+End references-main-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+Start references-section-wrapper Coding    
+--------------------------------------------------------------*/
+.references-section-wrapper {
+    background: #000;
+    color: #ffffff;
+}
+
+.references-section-wrapper .container {
+    padding: 100px 0px 100px 0px;
+}
+
+.references-section-main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.references-section-main .menu-section {
+    width: 12%;
+}
+
+.references-section-main .menu-section li {
+    margin-top: 10px;
+}
+
+.references-section-main .menu-section a{
+    color: #fff;
+    opacity: .4;
+    font-size: calc(11px + (15 - 11) * ((100vw - 320px) / (1920 - 320)));
+    font-family: "Manrope", sans-serif;
+    border-bottom: 1px solid #fff;
+}
+
+.references-section-main .menu-section li .active{
+    color: #fff;
+    opacity:1;
+}
+
+.references-section-main .left-section {
+    width: 38%;
+}
+
+.references-section-main .left-section .box{
+    padding-bottom: 200px;
+}
+
+.references-section-main .right-section {
+    width:38%;
+}
+
+.references-section-main .right-section .box{
+    padding-top: 180px;
+}
+
+    .sticky {
+        position: fixed;
+        top: 90px;
+    }
+/*--------------------------------------------------------------
+End references-section-wrapper Coding    
 --------------------------------------------------------------*/
