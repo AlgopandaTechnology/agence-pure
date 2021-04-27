@@ -498,4 +498,37 @@ Start le-feed-details-wrapper Coding
 End le-feed-details-wrapper Coding    
 --------------------------------------------------------------*/
 
+
+/*--------------------------------------------------------------
+Start references-section-wrapper Coding    
+--------------------------------------------------------------*/
+
+.references-section-main {
+    justify-content: center;
+}
+
+.references-section-main .menu-section {
+    width: 100%;
+}
+
+.references-section-main .left-section,.references-section-main .right-section {
+    width: 100%;
+}
+
+.references-section-main .left-section .box {
+    padding-bottom: 20px;
+}
+
+.references-section-main .right-section .box {
+    padding-top: 20px;
+}
+
+.sticky {
+    text-align: center;
+}
+
+/*--------------------------------------------------------------
+End references-section-wrapper Coding    
+--------------------------------------------------------------*/
+
 }

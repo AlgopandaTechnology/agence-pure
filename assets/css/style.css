@@ -331,11 +331,12 @@ Start home-project-wrapper Coding
     padding-left: 50px;
 }
 
-.references-section-wrapper .description{
+.references-section-wrapper .description {
     margin-top: 50px;
 }
 
-.home-project-wrapper .description h2,.references-section-wrapper .description h2 {
+.home-project-wrapper .description h2,
+.references-section-wrapper .description h2 {
     margin-bottom: 10px;
     font-size: calc(30px + 15 * ((100vw - 480px) / 1440));
     line-height: 1em;
@@ -343,7 +344,7 @@ Start home-project-wrapper Coding
     text-transform: uppercase;
 }
 
-.home-project-wrapper .description span{
+.home-project-wrapper .description span {
     font-size: calc(25px + 15 * ((100vw - 480px) / 1440));
     font-weight: 300;
     line-height: 1em;
@@ -353,7 +354,8 @@ Start home-project-wrapper Coding
 
 }
 
-.home-project-wrapper .description p,.references-section-wrapper .description p{
+.home-project-wrapper .description p,
+.references-section-wrapper .description p {
     margin-bottom: 10px;
     font-size: calc(14px + 1 * ((100vw - 480px) / 1440));
     color: #727272;
@@ -361,18 +363,20 @@ Start home-project-wrapper Coding
     line-height: 18px;
 }
 
-.click-right,.click-top {
+.click-right,
+.click-top {
     margin-top: 25px;
 }
 
-.click-right a,.click-top a{
+.click-right a,
+.click-top a {
     border-bottom: 2px solid #000;
     font-size: calc(16px + 12 * ((100vw - 480px) / 1440));
     font-family: "Manrope", sans-serif;
     color: #000000;
 }
 
-.click-top a{
+.click-top a {
     color: #fff;
     border-bottom: 2px solid #fff;
 }
@@ -1224,7 +1228,7 @@ Start references-section-wrapper Coding
     margin-top: 10px;
 }
 
-.references-section-main .menu-section a{
+.references-section-main .menu-section a {
     color: #fff;
     opacity: .4;
     font-size: calc(11px + (15 - 11) * ((100vw - 320px) / (1920 - 320)));
@@ -1232,31 +1236,32 @@ Start references-section-wrapper Coding
     border-bottom: 1px solid #fff;
 }
 
-.references-section-main .menu-section li .active{
+.references-section-main .menu-section li .active {
     color: #fff;
-    opacity:1;
+    opacity: 1;
 }
 
 .references-section-main .left-section {
     width: 38%;
 }
 
-.references-section-main .left-section .box{
+.references-section-main .left-section .box {
     padding-bottom: 200px;
 }
 
 .references-section-main .right-section {
-    width:38%;
+    width: 38%;
 }
 
-.references-section-main .right-section .box{
+.references-section-main .right-section .box {
     padding-top: 180px;
 }
 
-    .sticky {
-        position: fixed;
-        top: 90px;
-    }
+.sticky {
+    position: fixed;
+    top: 90px;
+}
+
 /*--------------------------------------------------------------
 End references-section-wrapper Coding    
 --------------------------------------------------------------*/
